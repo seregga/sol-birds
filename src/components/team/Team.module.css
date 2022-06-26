@@ -1,0 +1,15 @@
+.container {
+    /* padding-top: 130px; */
+    box-sizing: border-box;
+    width: 100%;
+    /* align-items: center;
+    margin-bottom: 120px;
+    background-image: url('./about-cross.png');
+    background-repeat: no-repeat;
+    background-position: 1399px 229px; */
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1162px;
+}

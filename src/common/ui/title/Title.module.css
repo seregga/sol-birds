@@ -1,0 +1,19 @@
+.fs140 {
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Urban Space'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 158px;
+    color: #161616;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.dark {
+    color: #161616;
+}
+
+.white {
+    color: #fff;
+}
