@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/sol-birds/static/css/main.36506751.css",
+    "main.js": "/sol-birds/static/js/main.cee801b8.js",
+    "static/js/787.892e4a28.chunk.js": "/sol-birds/static/js/787.892e4a28.chunk.js",
+    "static/media/splash-1.png": "/sol-birds/static/media/splash-1.1125d1e1dfd4f41cd3fb.png",
+    "static/media/group-birds.png": "/sol-birds/static/media/group-birds.fa0d7be6383ac1b09288.png",
+    "static/media/bird-black.png": "/sol-birds/static/media/bird-black.3a8833661b4b4441471f.png",
+    "static/media/bird-blue.png": "/sol-birds/static/media/bird-blue.f10f270b5ba90b7c98d8.png",
+    "static/media/bird-yellow.png": "/sol-birds/static/media/bird-yellow.3a25e7d053acd08bf5a3.png",
+    "static/media/bird-camouflage.png": "/sol-birds/static/media/bird-camouflage.c863fbcde0926b42764d.png",
+    "static/media/birds-fly-to-solana-text.svg": "/sol-birds/static/media/birds-fly-to-solana-text.224a4727dd04276c98dc.svg",
+    "static/media/logo-bird-stroke.svg": "/sol-birds/static/media/logo-bird-stroke.0b314bee7ca999839654.svg",
+    "static/media/road-map-bird-stroke.svg": "/sol-birds/static/media/road-map-bird-stroke.ff72edbb662faf6b2fc1.svg",
+    "static/media/num-3.svg": "/sol-birds/static/media/num-3.3890d47ef551c8492cad.svg",
+    "static/media/num-2.svg": "/sol-birds/static/media/num-2.24e374d813f11edf84b4.svg",
+    "static/media/logo-crosses-black.svg": "/sol-birds/static/media/logo-crosses-black.cd383f4274a5a30cd752.svg",
+    "static/media/num-1.svg": "/sol-birds/static/media/num-1.9b51df271a26abaf4b6c.svg",
+    "static/media/logo-cross-white.svg": "/sol-birds/static/media/logo-cross-white.d898e804fec1f21b5aa2.svg",
+    "static/media/logo-cross-left.svg": "/sol-birds/static/media/logo-cross-left.9cca3545d6ac59d9ae07.svg",
+    "static/media/logo-cross-right.svg": "/sol-birds/static/media/logo-cross-right.0aec020c00dce1f79579.svg",
+    "static/media/t-right.svg": "/sol-birds/static/media/t-right.dc849d3eef66fd431b6d.svg",
+    "static/media/tablet-up.svg": "/sol-birds/static/media/tablet-up.5f0032c7b83af085f746.svg",
+    "static/media/t-left.svg": "/sol-birds/static/media/t-left.8b69c86e4b851cdc4569.svg",
+    "static/media/tablet-down.svg": "/sol-birds/static/media/tablet-down.8fd8d9381aea30af2fec.svg",
+    "static/media/logo-zigzag.svg": "/sol-birds/static/media/logo-zigzag.f4af9b967193b5f8baa1.svg",
+    "index.html": "/sol-birds/index.html",
+    "static/media/logo-cross-and-zig.svg": "/sol-birds/static/media/logo-cross-and-zig.1f8eb76dc3604dd59787.svg",
+    "static/media/logo-zigzag-in-r.svg": "/sol-birds/static/media/logo-zigzag-in-r.b512cb14087c4a29c24f.svg",
+    "static/media/zigzag-right.svg": "/sol-birds/static/media/zigzag-right.e6194c5c81dcfb60ed12.svg",
+    "static/media/arrow-left.svg": "/sol-birds/static/media/arrow-left.af8c10fdb1aa444f5f1d.svg",
+    "static/media/arrow-right.svg": "/sol-birds/static/media/arrow-right.bd425096165e263813da.svg",
+    "static/media/zigzag-left.svg": "/sol-birds/static/media/zigzag-left.ec4d8e2333d1f682299e.svg",
+    "static/media/line.svg": "/sol-birds/static/media/line.716a1886c4969f9e34d2.svg",
+    "main.36506751.css.map": "/sol-birds/static/css/main.36506751.css.map",
+    "main.cee801b8.js.map": "/sol-birds/static/js/main.cee801b8.js.map",
+    "787.892e4a28.chunk.js.map": "/sol-birds/static/js/787.892e4a28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36506751.css",
+    "static/js/main.cee801b8.js"
+  ]
+}
