@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/sol-birds/static/css/main.36506751.css",
-    "main.js": "/sol-birds/static/js/main.cee801b8.js",
-    "static/js/787.892e4a28.chunk.js": "/sol-birds/static/js/787.892e4a28.chunk.js",
+    "main.css": "/sol-birds/static/css/main.99847002.css",
+    "main.js": "/sol-birds/static/js/main.5b7958ad.js",
     "static/media/splash-1.png": "/sol-birds/static/media/splash-1.1125d1e1dfd4f41cd3fb.png",
+    "static/media/splash.png": "/sol-birds/static/media/splash.ff41c38357076140ecb6.png",
     "static/media/group-birds.png": "/sol-birds/static/media/group-birds.fa0d7be6383ac1b09288.png",
     "static/media/bird-black.png": "/sol-birds/static/media/bird-black.3a8833661b4b4441471f.png",
     "static/media/bird-blue.png": "/sol-birds/static/media/bird-blue.f10f270b5ba90b7c98d8.png",
     "static/media/bird-yellow.png": "/sol-birds/static/media/bird-yellow.3a25e7d053acd08bf5a3.png",
     "static/media/bird-camouflage.png": "/sol-birds/static/media/bird-camouflage.c863fbcde0926b42764d.png",
     "static/media/birds-fly-to-solana-text.svg": "/sol-birds/static/media/birds-fly-to-solana-text.224a4727dd04276c98dc.svg",
+    "static/media/image_4.png": "/sol-birds/static/media/image_4.0de393548638676e1562.png",
+    "static/media/image_1.png": "/sol-birds/static/media/image_1.1417935b8299f1d78868.png",
+    "static/media/image_5.png": "/sol-birds/static/media/image_5.ff5912a2d69cda6655c5.png",
+    "static/media/image_3.png": "/sol-birds/static/media/image_3.cf3acad8ca40351b027c.png",
+    "static/media/image_2.png": "/sol-birds/static/media/image_2.f35f0ebaae7dce60a119.png",
     "static/media/logo-bird-stroke.svg": "/sol-birds/static/media/logo-bird-stroke.0b314bee7ca999839654.svg",
     "static/media/road-map-bird-stroke.svg": "/sol-birds/static/media/road-map-bird-stroke.ff72edbb662faf6b2fc1.svg",
     "static/media/num-3.svg": "/sol-birds/static/media/num-3.3890d47ef551c8492cad.svg",
@@ -29,15 +34,16 @@
     "static/media/logo-zigzag-in-r.svg": "/sol-birds/static/media/logo-zigzag-in-r.b512cb14087c4a29c24f.svg",
     "static/media/zigzag-right.svg": "/sol-birds/static/media/zigzag-right.e6194c5c81dcfb60ed12.svg",
     "static/media/arrow-left.svg": "/sol-birds/static/media/arrow-left.af8c10fdb1aa444f5f1d.svg",
+    "static/media/zigzag_down.svg": "/sol-birds/static/media/zigzag_down.c11708a463e21b5812de.svg",
+    "static/media/zigzag_up.svg": "/sol-birds/static/media/zigzag_up.ed5e31b20277e12b9028.svg",
     "static/media/arrow-right.svg": "/sol-birds/static/media/arrow-right.bd425096165e263813da.svg",
     "static/media/zigzag-left.svg": "/sol-birds/static/media/zigzag-left.ec4d8e2333d1f682299e.svg",
     "static/media/line.svg": "/sol-birds/static/media/line.716a1886c4969f9e34d2.svg",
-    "main.36506751.css.map": "/sol-birds/static/css/main.36506751.css.map",
-    "main.cee801b8.js.map": "/sol-birds/static/js/main.cee801b8.js.map",
-    "787.892e4a28.chunk.js.map": "/sol-birds/static/js/787.892e4a28.chunk.js.map"
+    "main.99847002.css.map": "/sol-birds/static/css/main.99847002.css.map",
+    "main.5b7958ad.js.map": "/sol-birds/static/js/main.5b7958ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.36506751.css",
-    "static/js/main.cee801b8.js"
+    "static/css/main.99847002.css",
+    "static/js/main.5b7958ad.js"
   ]
 }
