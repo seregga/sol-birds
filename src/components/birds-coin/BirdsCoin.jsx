@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import s from './BirdsCoin.module.css'
 import Text from './../../common/ui/text/Text';
 import Title from './../../common/ui/title/Title';
+import { useDispatch } from 'react-redux'
+import { setBlockBirdsCoin } from '../../redux/slices/blockSlice';
 
-const BirdsCoin = (props) => {
+
+const BirdsCoin = () => {
+
+    const refBirdsCoin = useRef()
+
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(setBlockBirdsCoin(refBirdsCoin.current))
+    }, [])
+
     return (
-        <section className={s.container}>
+        <section className={s.container} ref={refBirdsCoin}>
             <div className={s.wrap}>
                 <Title color={'dark'}>birds <span className={s.title__slice}>coin</span></Title>
                 <article className={s.group_text_up}>

@@ -1,28 +1,30 @@
 import React, { useEffect, useRef } from 'react';
-import s from './RoadMap.module.css';
+import s from './Faq.module.css';
 import Text from '../../common/ui/text/Text';
 import Title from './../../common/ui/title/Title';
 import { useDispatch } from 'react-redux'
-import { setBlockRoadMap } from '../../redux/slices/blockSlice';
+import { setBlockFaq } from '../../redux/slices/blockSlice';
 
 
-const RoadMap = () => {
+const Faq = () => {
 
-    const refRoadMap = useRef()
+    const refFaq = useRef()
     const dispatch = useDispatch()
 
     useEffect(() => {
-        dispatch(setBlockRoadMap(refRoadMap.current))
+        dispatch(setBlockFaq(refFaq.current))
     }, [])
 
     return (
-        <section className={s.container} ref={refRoadMap}>
+        <section className={s.container} ref={refFaq}>
             <div className={s.wrap}>
-                <Title color={'white'} >road <span className={s.title__us}>map</span></Title>
+                <Title color={'white'} >faq </Title>
                 <article className={s.text__box}>
                     <div className={s.text__box_left}>
-                        <Text color={'white'} fs={'fs24'}>Development of the project and search
-                            for like-minded people through partnerships with other DAOs
+                        <Text color={'white'} fs={'fs24'}>Write in your Twitter account
+                            how you can be useful
+                            and tag our account.
+                            We will make a decision
                             and collaborations.<span className={s.text_yellow}>Just organic growth</span>. Without drawing money from bribe bloggers. Joining the OG club only
                             after moderation
                         </Text>
@@ -57,4 +59,4 @@ const RoadMap = () => {
     )
 }
 
-export default RoadMap
+export default Faq

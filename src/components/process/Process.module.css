@@ -1,0 +1,47 @@
+.container {
+    padding: 210px 0 220px 0;
+    margin-bottom: 120px;
+    width: 100%;
+    background-image: url('./splash.png');
+    background-repeat: no-repeat;
+    background-position: 50px 0px;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1162px;
+}
+
+.subtitle {
+    font-family: 'Ganglia Basal', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 112%;
+    color: #FFC700;
+    margin-bottom: 90px;
+}
+
+.points {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.image {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.item {
+    display: flex;
+    max-width: 550px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+    /* max-height: 90px; */
+}
+
+.text {
+    max-width: 440px;
+}

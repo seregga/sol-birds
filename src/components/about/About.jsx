@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import s from './About.module.css'
 import birdBlack from './../../assets/img/birds/bird-black.png'
 import birdBlue from './../../assets/img/birds/bird-blue.png'
@@ -6,22 +6,21 @@ import birdCamouflage from './../../assets/img/birds/bird-camouflage.png'
 import birdYellow from './../../assets/img/birds/bird-yellow.png'
 import Text from './../../common/ui/text/Text';
 import Title from './../../common/ui/title/Title';
-// import { Context } from './../../common/js/context';
-import { connect } from 'react-redux';
-import { setRefToAbout, setRefToRoadMap } from './../../redux/actions/refTo-actions';
+import { setBlockAbout } from '../../redux/slices/blockSlice';
+import { useDispatch } from 'react-redux'
 
 
-const About = (props) => {
+
+
+const About = () => {
     console.log('im About');
 
-    // const { setLinksElementsState } = useContext(Context)
+    const dispatch = useDispatch()
 
     const about = useRef()
 
     useEffect(() => {
-        props.dispatch(setRefToAbout(about))
-        // props.dispatch(setRefToRoadMap(refRoadMap))
-        // setLinksElementsState(about)
+        dispatch(setBlockAbout(about.current))
     }, [])
 
 
@@ -48,10 +47,5 @@ const About = (props) => {
     )
 }
 
-const mapStateToProps = (state) => {
-    return {
-        refToAbout: state.refToReducer.refToAbout,
-        refToRoadMap: state.refToReducer.refToRoadMap
-    }
-}
-export default connect(mapStateToProps)(About) 
+
+export default About

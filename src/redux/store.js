@@ -1,5 +1,9 @@
-import { createStore } from "redux";
-import rootReducer from './reducers/root-reducer';
+import { configureStore } from "@reduxjs/toolkit";
+import blockSlice from "./slices/blockSlice";
 
-const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-export default store;
+export const store = configureStore({
+    reducer: {
+        blocks: blockSlice
+    }
+})
+

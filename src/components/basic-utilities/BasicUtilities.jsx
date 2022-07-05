@@ -1,19 +1,19 @@
-import React, { useContext, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Title from '../../common/ui/title/Title';
 import Text from '../../common/ui/text/Text';
 import s from './BasicUtilities.module.css';
-import { Context } from '../../common/js/context';
+import { setBlockBasicUtilities } from '../../redux/slices/blockSlice';
+import { useDispatch } from 'react-redux'
 
 const BasicUtilities = (props) => {
     console.log('im BasicUtilities');
 
-
-    const { setLinksElementsState } = useContext(Context)
+    const dispatch = useDispatch()
 
     const refBasicUtilities = useRef()
 
     useEffect(() => {
-        setLinksElementsState(refBasicUtilities)
+        dispatch(setBlockBasicUtilities(refBasicUtilities.current))
     }, [])
 
     return (
@@ -63,4 +63,5 @@ const BasicUtilities = (props) => {
         </section>
     )
 }
-export default BasicUtilities
+
+export default BasicUtilities 

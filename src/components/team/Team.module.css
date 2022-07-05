@@ -1,15 +1,38 @@
 .container {
-    /* padding-top: 130px; */
+    padding-top: 130px;
     box-sizing: border-box;
     width: 100%;
-    /* align-items: center;
-    margin-bottom: 120px;
-    background-image: url('./about-cross.png');
+    margin-bottom: 200px;
+    background-image:
+        url('./zigzag_up.svg'),
+        url('./zigzag_down.svg');
     background-repeat: no-repeat;
-    background-position: 1399px 229px; */
+    background-position:
+        1383px 221px,
+        1383px 922px;
+
 }
 
 .wrap {
     margin: 0 auto;
     max-width: 1162px;
+}
+
+.team {
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 100px;
+}
+
+.team__up {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.team__down {
+    display: flex;
+    flex-wrap: wrap;
 }

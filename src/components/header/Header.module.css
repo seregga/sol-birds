@@ -1,5 +1,8 @@
 .header {
-    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    background-color: #161616;
+    width: 1920px;
     padding-top: 41px;
     max-height: 116px;
     box-sizing: border-box;
@@ -31,6 +34,7 @@
 
 .item {
     color: #ffffff;
+    cursor: pointer;
 }
 
 .line {
